@@ -64,7 +64,6 @@ namespace OpenAllDoors
 
             if (File.Exists($"{Globals.Application.ConfigPath}{Globals.Application.ConfigFileName}"))
             {
-                //Loads the config file (.ini file)
                 Settings.LoadSettings();
             }
             else
